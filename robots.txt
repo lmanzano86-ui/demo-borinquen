@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /temas.html
+Sitemap: https://lmanzano86-ui.github.io/demo-borinquen/sitemap.xml
