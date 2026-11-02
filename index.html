@@ -124,7 +124,7 @@ window.MODULO_TEMAS = {
   html[data-tema="halloween"] .rating { color:#8a3a06; }
   html[data-tema="halloween"] .lang button.on { color:#8a3a06; }
   html[data-tema="halloween"] .btn.call { color:#8a3a06; }
-</style>
+/* Retoques plan B */ header{border-radius:0 0 24px 24px;box-shadow:0 12px 30px rgba(0,0,0,.18)} .card{border-radius:20px;box-shadow:0 8px 22px rgba(0,0,0,.10)} .list .row{border-radius:12px;padding:12px 14px} .list li{border-radius:12px;padding:12px} .badge-favorito{display:inline-block;background:#a3121a;color:#fff;font-weight:800;font-size:.78rem;border-radius:999px;padding:4px 12px;margin-bottom:8px} .sticky{position:fixed;left:0;right:0;bottom:0;z-index:50;display:flex;gap:10px;justify-content:center;padding:12px 14px;background:rgba(255,255,255,.96);box-shadow:0 -6px 20px rgba(0,0,0,.15)} .sticky a{flex:1;max-width:280px;text-align:center;background:#a3121a;color:#fff;text-decoration:none;font-weight:800;border-radius:999px;padding:12px 16px} .sticky a:last-child{background:#2b2b2b} body{padding-bottom:84px} </style>
 </head>
 <body>
 <div class="wrap">
@@ -155,7 +155,7 @@ window.MODULO_TEMAS = {
   <h2 data-es="🔥 El especial insignia" data-en="🔥 The signature special">🔥 El especial insignia</h2>
   <p class="lede" data-es="El que todos conocen y todos piden" data-en="The one everyone knows and everyone orders">El que todos conocen y todos piden</p>
   <div class="star">
-    <div class="price">$4.99</div>
+    <div class="badge-favorito" data-es="⭐ EL FAVORITO DE LA CASA" data-en="⭐ THE HOUSE FAVORITE">⭐ EL FAVORITO DE LA CASA</div><div class="price">$4.99</div>
     <h3 data-es="Comida completa" data-en="Full meal">Comida completa</h3>
     <p data-es="Arroz amarillo, carne guisada y yuca con cebolla encurtida.<br>La bandeja que se hizo viral en TikTok." data-en="Yellow rice, stewed beef and yuca with pickled onions.<br>The tray that went viral on TikTok.">Arroz amarillo, carne guisada y yuca con cebolla encurtida.<br>La bandeja que se hizo viral en TikTok.</p>
     <div class="nota" data-es="Precios y especiales tomados de sus publicaciones en redes sociales." data-en="Prices and specials taken from their social media posts.">Precios y especiales tomados de sus publicaciones en redes sociales.</div>
@@ -273,5 +273,5 @@ function setLang(l){
   try{ var s = localStorage.getItem('borinquen_lang'); if(s==='en') setLang('en'); }catch(e){}
 })();
 </script>
-</body>
+<nav class="sticky" aria-label="Acciones rápidas"><a href="tel:+18138700261" data-es="📞 Llamar ahora" data-en="📞 Call now">📞 Llamar ahora</a><a href="https://www.google.com/maps/search/?api=1&query=El+Famoso+Borinquen+Meat+%26+Produce+3324+W+Columbus+Dr+Tampa+FL+33607" target="_blank" rel="noopener" data-es="📍 Cómo llegar" data-en="📍 Get directions">📍 Cómo llegar</a></nav></body>
 </html>
